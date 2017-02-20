@@ -1,0 +1,51 @@
+.sch-event
+{
+    border: 1px solid orchid;
+    color: #123;
+    background-image: -webkit-linear-gradient(top,#cde6f3,#e8f3f9);
+    background-image: -moz-linear-gradient(top,#cde6f3,#e8f3f9);
+    background-image: -ms-linear-gradient(top,#cde6f3,#e8f3f9);
+    background-image: linear-gradient(top,#cde6f3,#e8f3f9);
+    overflow: hidden;
+    padding-left: 5px;
+    z-index: 2;
+    box-shadow: 1px 1px 2px #ccc;
+    border-radius: 4px;
+    text-align: center;
+    cursor:pointer !important;
+}
+
+.sch-event-hover{
+    border-color: #db1918 !important;
+    cursor:pointer !important;
+}
+
+.sch-resourcecolumn-header .x-column-header-text {
+    background   : url(../images/user.png) no-repeat left center;
+    padding-left : 23px;
+    display      : inline-block;
+}
+
+.sch-resourcecolumn-header .x-column-header-inner {
+    padding     : 12px 4px;
+    line-height : 16px;
+}
+.eventTip{
+	padding: 0 5px !important;
+}
+.eventTip dt {
+	padding-left: 26px;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+.eventTip dd {
+	margin-bottom: 10px;
+	margin-left: 28px;
+	white-space: nowrap;
+}
+.icon-clock {
+	background: url(../images/clock.png) no-repeat left center !important;
+}
+.icon-task {
+	background: transparent url(../images/LeftNavTaskIcon.gif) no-repeat left center !important;
+}

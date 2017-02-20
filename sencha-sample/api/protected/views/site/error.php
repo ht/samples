@@ -1,0 +1,2 @@
+<h2 style="font-size: 18px;color: #f00;padding-top: 20px;float:left;width: 100%;">Error <?=isset($error) ? $error : '404'; ?></h2>
+<p style="color: #f00;padding-bottom:20px"><?=isset($message) ? CHtml::encode($message) : 'Không thể tìm thấy yêu cầu!'; ?></p>

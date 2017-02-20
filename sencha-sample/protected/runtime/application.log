@@ -1,0 +1,28 @@
+2014/06/18 04:25:04 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isGuest".' in D:\ACProjects\accom-app\yii\base\CComponent.php:266
+Stack trace:
+#0 D:\ACProjects\accom-app\pc\protected\views\layouts\main.php(2): CComponent->__call('isGuest', Array)
+#1 D:\ACProjects\accom-app\pc\protected\views\layouts\main.php(2): CWebUser->isGuest()
+#2 D:\ACProjects\accom-app\yii\web\CBaseController.php(126): require('D:\\ACProjects\\a...')
+#3 D:\ACProjects\accom-app\yii\web\CBaseController.php(95): CBaseController->renderInternal('D:\\ACProjects\\a...', Array, true)
+#4 D:\ACProjects\accom-app\yii\web\CController.php(784): CBaseController->renderFile('D:\\ACProjects\\a...', Array, true)
+#5 D:\ACProjects\accom-app\pc\protected\controllers\SiteController.php(32): CController->render('index')
+#6 D:\ACProjects\accom-app\yii\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\ACProjects\accom-app\yii\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\ACProjects\accom-app\yii\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\ACProjects\accom-app\yii\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\ACProjects\accom-app\yii\web\CWebApplication.php(282): CController->run('')
+#11 D:\ACProjects\accom-app\yii\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\ACProjects\accom-app\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\ACProjects\accom-app\pc\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/accom-app/pc/
+---
+2014/06/18 08:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Work/GetWork".' in D:\ACProjects\accom-app\yii\web\CWebApplication.php:286
+Stack trace:
+#0 D:\ACProjects\accom-app\yii\web\CWebApplication.php(141): CWebApplication->runController('Work/GetWork')
+#1 D:\ACProjects\accom-app\yii\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\ACProjects\accom-app\pc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/accom-app/pc/Work/GetWork?_dc=1403073567067&page=1&start=0&limit=25
+HTTP_REFERER=http://localhost/accom-app/pc/
+---

@@ -1,0 +1,207 @@
+.labelCircleEdit
+{
+    color:blue;
+}
+{
+    padding: 0;
+    margin: 0;
+    overflow: scroll;
+}
+
+body {
+    background-color: #ffffff;
+    overflow: scroll;
+}
+
+.icon-warning{ 
+	background-image: url(../images/icons/warning.png);
+}
+.icon-edit-png{ 
+	background-image: url(../images/icons/edit.png);
+}
+.icon-open{ 
+	background-image: url(../images/icons/open.png);
+}
+.icon-setting{ 
+	background-image: url(../images/icons/ツール.ico);
+}
+.icon-accept{ 
+	background-image: url(../images/icons/accept.png);
+}
+.icon-find{ 
+	background-image: url(../images/icons/検索開始.ico);
+}
+.icon-reload{ 
+	background-image: url(../images/icons/更新履歴.ico);
+}
+.icon-chart{ 
+	background-image: url(../images/icons/graph.png);
+}
+.icon-home{ 
+	background-image: url(../images/icons/home.png);
+}
+.icon-ex{ 
+	background-image: url(../images/icons/対応依頼.ico);
+}
+.icon-new{ 
+	background-image: url(../images/icons/新規取得.ico);
+}
+.icon-edit{ 
+	background-image: url(../images/icons/新規登録.ico);
+}
+.icon-movie{ 
+	background-image: url(../images/icons/movie_blue.png);
+}
+.icon-call{ 
+	background-image: url(../images/icons/call.png);
+}
+.icon-cancel{ 
+	background-image: url(../images/icons/キャンセル.ico);
+}
+.icon-mail{ 
+	background-image: url(../images/icons/mail.png);
+}
+.icon-group{ 
+	background-image: url(../images/icons/操作履歴.ico);
+}
+.icon-network{ 
+	background-image: url(../images/icons/CRM.ico);
+}
+.icon-circle{ 
+	background-image: url(../images/icons/HEADSET.ico);
+}
+.icon-add{ 
+	background-image: url(../images/icons/add.png);
+}
+.icon-remove{ 
+	background-image: url(../images/icons/remove_.png);
+}
+.icon-delete{ 
+	background-image: url(../images/icons/delete.png);
+}
+.icon-continue{
+  background-image: url(../images/continue.gif) !important;
+  background-repeat: no-repeat;
+}
+.icon-preview{
+  background-image: url(../images/back_32.png) !important;
+  background-repeat: no-repeat;
+}
+.icon-next{
+  background-image: url(../images/next_32.png) !important;
+  background-repeat: no-repeat;
+}
+.order{
+  background-image: url(../images/order.png) !important;
+  background-repeat: no-repeat;
+}
+.callback{
+  background-image: url(../images/callback.jpg) !important;
+  background-repeat: no-repeat;
+}
+.footer{
+  background-image: url(../images/footer.jpg) !important;
+  background-repeat: no-repeat;
+}
+.icon-message{
+  background-image: url(../images/icons/message.png) !important;
+  background-repeat: no-repeat;
+}
+.icon-schedule{
+  background-image: url(../images/icons/sheduled.png) !important;
+  background-repeat: no-repeat;
+}
+.icon-logoff{
+  background-image: url(../images/icons/out.png) !important;
+  background-repeat: no-repeat;
+}
+.error {
+    color: #fff;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #088999;
+    background-color: #062f4d;
+}
+.information{
+ font-weight: bold;
+ /*color: #E47911;*/	
+ font-size: 15px;
+}
+.textfield{
+	/*border: 1px solid #3366FF;
+	border-left: 4px solid #ff0000;*/
+    
+    font-size:20px;
+    font-weight: bold;
+    background-color:
+}
+.panelField{
+ 	background-color:#336633 !important;
+}
+.x-panel.my-cool-tree
+{
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.x-panel.my-cool-tree .x-panel-body
+{
+    border: none;
+}
+.x-grid-cell.first-level
+{
+    padding: 3px 0;
+ 
+/* Old browsers */
+    background: rgb(225,233,160);
+/* FF3.6+ */
+    background: -moz-linear-gradient(top,  rgba(225,233,160,1) 0%, rgba(234,239,181,1) 100%);
+/* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%,rgba(225,233,160,1)),
+    color-stop(100%,rgba(234,239,181,1)));
+/* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top,  rgba(225,233,160,1) 0%,rgba(234,239,181,1) 100%);
+/* Opera 11.10+ */
+    background: -o-linear-gradient(top,  rgba(225,233,160,1) 0%,rgba(234,239,181,1) 100%);
+/* IE10+ */
+    background: -ms-linear-gradient(top,  rgba(225,233,160,1) 0%,rgba(234,239,181,1) 100%);
+/* W3C */
+    background: linear-gradient(top,  rgba(225,233,160,1) 0%,rgba(234,239,181,1) 100%);
+/* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e1e9a0',
+    endColorstr='#eaefb5',
+    GradientType=0);
+}
+.x-grid-cell.first-level .x-tree-expander
+{
+    width: 18px;
+}
+.x-grid-cell.first-level .x-tree-icon
+{
+    /*display: none !important;*/
+}
+/* SIDEBAR */
+.sidebar {
+	z-index: 0 !important;
+	-webkit-transform: translate(-80px, 0);
+    
+    height: 100%;
+      position: absolute !important;
+      left: 0;
+  
+}
+
+.overlay-view {
+    background: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.overlay-view .x-panel-inner {
+    background: transparent !important;
+}
+.customGrid{
+    #height: 45px !important;
+    #margin-top: -20px !important;    
+    background-color:#f8f8f8 !important;
+}

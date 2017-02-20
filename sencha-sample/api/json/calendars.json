@@ -1,0 +1,23 @@
+{
+    "calendars" : [{
+        "id"    : 1,
+        "title" : "Home",
+        "color" : 1
+    },{
+        "id"    : 2,
+        "title" : "Work",
+        "color" : 2
+    },{
+        "id"    : 3,
+        "title" : "School",
+        "color" : 3
+    },{
+        "id"    : 4,
+        "title" : "Sports",
+        "color" : 4
+    },{
+        "id"    : 5,
+        "title" : "Sportss",
+        "color" : 5
+    }]
+}
